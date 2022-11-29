@@ -1,0 +1,186 @@
+  .main .header {
+    text-align: center;
+    margin: 20px auto;
+   }
+   
+   .main .gameBox table {
+    background-color: aqua;
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse ;
+   }
+   
+   .main .gameBox table td.mine {
+    /* 游戏结束时显示 */
+    border: none;
+    background: url(雷.jpg) no-repeat;
+    background-size: 90% 90%;
+    background-color: #e9e6e6;
+    background-position: 2px 0;
+   }
+   
+   .main .gameBox table td.targetMine {
+    /* 游戏结束时显示，触发雷的单元格 */
+    border: none;
+    background: url(雷.jpg) no-repeat;
+    background-size: 90% 90%;
+    background-color: #ff4b4b;
+    background-position: 2px 0;
+   }
+   
+   .main .gameBox table td.targetFlag {
+    /* 右键标记方格时显示 */
+    background: url(旗子.jpg) no-repeat;
+    background-size: 90% 90%;
+    background-position: 2px 0;
+    background-color: #e9e6e6;
+   }
+   
+   .main .gameBox table td {
+    /* 单元格初始样式 */
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: rgb(238, 238, 238) #ccc #ccc #eee;
+    background-color: #e6e8e9;
+    font-size: 1px;
+    font-weight: 800;
+   }
+   
+   .gameBox table td.zero,
+   .gameBox table td.one,
+   .gameBox table td.two,
+   .gameBox table td.three,
+   .gameBox table td.four,
+   .gameBox table td.five,
+   .gameBox table td.six,
+   .gameBox table td.seven,
+   .gameBox table td.eight,
+   .gameBox table td.nine {
+    border-collapse: separate;
+    background-color: rgb(200, 211, 209);
+   }
+   
+   
+   
+   .gameBox table td.one {
+    color: blue;
+   }
+   
+   .gameBox table td.two {
+    color: rgb(5, 93, 5);
+   }
+   
+   .gameBox table td.three {
+    color: #008c8c;
+   }
+   
+   .gameBox table td.four {
+    color: crimson;
+   }
+   
+   .gameBox table td.five {
+    color: rgb(228, 91, 0);
+   }
+   
+   .gameBox table td.six {
+    color: darkorange;
+   }
+   
+   .gameBox table td.seven {
+    color: rgb(193, 196, 50);
+   }
+   
+   .gameBox table td.eight {
+    color: pink;
+   }
+   
+   .main .footer {
+    text-align: center;
+   }
+
+   .main .button1{
+    font-size: 30px;
+    color:black ;
+    border-radius: 30px;
+    background-color: darkgoldenrod;
+    box-shadow: 0 7px rgb(139, 133, 133);
+   }
+
+   .main .button2{
+    font-size: 50px;
+    color: darkblue;
+    border-radius: 60px;
+    background-color: chocolate;
+    box-shadow: 0 7px rgb(139, 133, 133);
+   }
+
+   .main .button3{
+    font-size: 70px;
+    color: #ff4b4b;
+    border-radius: 90px;
+    background-color: coral;
+    box-shadow: 0 11px rgb(139, 133, 133);
+    outline: none;
+    cursor: cell;
+   }
+   .button3:hover {
+    background-color: #dc1627
+  }
+  
+  .button3:active {
+    background-color: #70d405;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .button2:hover {
+    background-color: #3d3290
+  }
+  
+  .button2:active {
+    background-color: #15a897;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .button1:hover {
+    background-color: #b9de4a
+  }
+  
+  .button1:active {
+    background-color: #4f38d2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .goodluck {
+    color: #dc1627;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px auto;
+   }
+
+  .footer {
+    font-size: 25px;
+    color: #4f38d2;
+  }
+
+
+.bar {
+    text-align: center;
+    margin: 20px auto;
+    height: 25px;
+    width: 150px;
+    line-height: 25px;
+    display: inline-block;
+    border: solid 1px #000;
+    color: #dc1627;
+}
+
+.timing{
+  text-align: center;
+  border: #4f38d2;
+  margin: 50px;
+}
